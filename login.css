@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url(Icons/background2.jpg);
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.box h1{
+    font-size: 20px;
+   color: dodgerblue;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: dodgerblue;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 280px;
+
+}
+.box input[type = "text"]:hover, .box input[type = "password"]:hover{
+    width: 280px;
+    border-color: #2ecc71;
+
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    color: dodgerblue;
+    transition: 0.25s;
+}
+.box input[type = "submit"]:hover{
+    width: 210px;
+    border-color: #2ecc71;
+    color: whitesmoke;
+    font-weight: 500px;
+    background-color: #2ecc71;
+    cursor: pointer;
+    
+}
+.box input[type = "button"]{
+    color: firebrick;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    width: 150px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-align: center;
+}
+.box input[type = "button"]:hover{
+    background-color: firebrick;
+    color: whitesmoke;
+    width: 160px;
+    cursor: pointer;
+}

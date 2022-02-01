@@ -1,0 +1,19 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+      height: 100vh;
+    
+      
+  
+     background-image: url("Icons/background2.jpg");
+     
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: floralwhite;
+      text-align: center;
+  }

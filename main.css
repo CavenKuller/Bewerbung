@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Designe Körper*/
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  
+    height: 100vh;
+  
+    
+
+   background-image: url("Icons/background2.jpg");
+   
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Designe Navigationsleiste*/
+nav{
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto ;
+
+}
+nav ul{
+    float: right;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+    color: dodgerblue;
+}
+
+ul li a:hover{
+    color: firebrick;
+   
+}
+img{
+   float: left;
+    height: 45px;
+   /* position: absolute; */
+    
+    margin-top: 10px;
+    margin-left: 25px;
+    
+}
+
+/* Kontentfläche*/
+main{
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+
+
+    
+}
+
+main h4{
+    color: firebrick;
+}
+
+.slideshow{
+    background-size: cover;
+   width: 50vw;
+   height: 50vh;
+   box-shadow: 0px 0px 10px gray;
+   position: relative;
+}
+
+
+.slide{
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    overflow: hidden;
+}
+
+.slide-bild {
+    width: 100%;
+    height: 100%;
+}
+.slide-textbereich {
+   color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 15% 0 15%;
+}
+.slide-ueberschrift {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.slide-beschreibung {
+    font-size: 1.4em;
+    margin: 0;
+}
+.pfeil {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    color: rgba(255, 255, 255, 0.5);
+    user-select: none;
+}
+
+.pfeil:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.pfeil-links{
+    left: 0;
+}
+.pfeil-rechts{
+    right: 0;
+
+}
+
+.indikatorenliste{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+.indikator {
+    padding: 0 10px;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 70px 0;
+    padding: auto;
+}
+.container {
+   max-width: 1170px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: inline-block;
+    transition: all 0.3s ease;
+    
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 15px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col {
+        width: 100%;
+        
+    }
+}
+
